@@ -1,4 +1,4 @@
-## Laravel API - (JWT Edition) rebuild by sandharu1
+## Laravel API - (JWT) rebuild by sandharu1
 
 Used Libraries:
 
