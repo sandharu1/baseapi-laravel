@@ -1,6 +1,6 @@
-## Laravel API - (JWT) rebuild by sandharu1
-
-Used Libraries:
+# Laravel API - (JWT) # ### rebuild by sandharu1
+ ###
+## Used Libraries: ##
 
 * JWT-Auth - [tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth)
 * Dingo API - [dingo/api](https://github.com/dingo/api)
