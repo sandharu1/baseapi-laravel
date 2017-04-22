@@ -1,4 +1,4 @@
-# Laravel API - (JWT) # rebuild by sandharu1
+# Laravel API - (JWT) rebuild by sandharu1 #
 ## Used Libraries: ##
 
 * JWT-Auth - [tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth)
