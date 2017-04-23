@@ -9,7 +9,7 @@ class ResetPasswordRequest extends FormRequest
 {
     public function rules()
     {
-        return Config::get('s1api.reset_password.validation_rules');
+        return Config::get('baseapi.reset_password.validation_rules');
     }
 
     public function authorize()

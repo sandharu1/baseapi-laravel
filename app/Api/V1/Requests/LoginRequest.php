@@ -9,7 +9,7 @@ class LoginRequest extends FormRequest
 {
     public function rules()
     {
-        return Config::get('s1api.login.validation_rules');
+        return Config::get('baseapi.login.validation_rules');
     }
 
     public function authorize()

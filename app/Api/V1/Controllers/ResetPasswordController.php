@@ -24,7 +24,7 @@ class ResetPasswordController extends Controller
             throw new HttpException(500);
         }
 
-        if(!Config::get('s1api.reset_password.release_token')) {
+        if(!Config::get('baseapi.reset_password.release_token')) {
             return response()->json([
                 'status' => true,
             ]);

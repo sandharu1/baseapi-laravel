@@ -45,7 +45,7 @@ class ResetPasswordControllerTest extends TestCase
 
     public function testResetSuccessfullyWithTokenRelease()
     {
-        Config::set('s1api.reset_password.release_token', true);
+        Config::set('baseapi.reset_password.release_token', true);
 
         $this->post('api/auth/reset', [
             'email' => 'test@email.com',

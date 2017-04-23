@@ -18,7 +18,7 @@ class SignUpController extends Controller
             throw new HttpException(500);
         }
 
-        if(!Config::get('s1api.sign_up.release_token')) {
+        if(!Config::get('baseapi.sign_up.release_token')) {
             return response()->json([
                 'status' => true
             ], 201);

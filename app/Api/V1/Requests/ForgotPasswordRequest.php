@@ -9,7 +9,7 @@ class ForgotPasswordRequest extends FormRequest
 {
     public function rules()
     {
-        return Config::get('s1api.forgot_password.validation_rules');
+        return Config::get('baseapi.forgot_password.validation_rules');
     }
 
     public function authorize()
